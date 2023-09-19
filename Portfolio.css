@@ -1,0 +1,108 @@
+
+html, body {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    background-color: #0C2E44;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav {
+    position: fixed;
+    width: 300px;
+    /* height: 100vh; */
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #EEAA2B;
+}
+
+.nav-item {
+    margin-bottom: 20px;
+}
+
+#content {
+    background-color: #025D95;
+    width: 100%;
+    height: 70vh;
+    margin-left: 330px;
+    margin-top: 40px;
+    overflow-y: scroll;   
+    padding: 100px;
+}
+
+#home{
+    color: #EEAA2B; 
+    font-size: large;
+    /* width: auto; */
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: end;
+    font-size: xx-large;
+    line-height: 10px;
+    padding-bottom: 700px;
+    /* padding-left: 800px; */
+    
+    
+} 
+
+
+.tag{
+    font-size: large;
+    font-weight: bold ;
+    padding-left: 0px;
+    /* width: auto; */
+    /* background-color: gainsboro; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: xx-large;
+}
+
+.about , h2{
+    color: #EEAA2B;
+    font-size: 50px; 
+}
+p.abouttext{
+    color: #EEAA2B;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 750px;
+}
+.skills ul{
+    color: #EEAA2B;
+    font-size: 20px;
+    /* text-align: center; */
+    padding-bottom: 800px;
+    list-style-type: none;
+}
+#past_projects ul{
+    color: #EEAA2B;
+    font-size: 20px;
+    padding-bottom: 750px;
+    list-style-type: none;
+}
+.contact ul{
+    color: #EEAA2B;
+    font-size: 20px;
+    padding-bottom: 400px;
+    list-style-type: none;
+}
